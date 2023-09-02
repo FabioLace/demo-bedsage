@@ -1,0 +1,14 @@
+.entry{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.entry-title a{
+    color: red;
+}
+
+.entry-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

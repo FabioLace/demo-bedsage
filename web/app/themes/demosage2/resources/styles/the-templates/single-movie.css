@@ -1,0 +1,72 @@
+.scheda-film{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: black;
+    width: 50%;
+    box-shadow: 22px 22px 50px -40px rgba(0,0,0,0.75);;
+    border-radius: 5%; 
+}
+
+.locandina {
+    margin-right: 1em;
+    width: 259px;
+    height: 385px;
+}
+
+.info-film{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.info-film .title{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.info-film > ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.descrizione-film{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    width: 40%;
+    justify-content: center;
+}
+
+.descrizione-film a{
+    color: red;
+}
+
+.container-immagini-dal-film{
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.immagini-film{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.immagini-film img{
+    width: 450px;
+    height: auto;
+}

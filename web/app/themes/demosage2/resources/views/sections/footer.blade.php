@@ -1,0 +1,19 @@
+<footer>
+    <div class="link-grid">
+        <ul>
+            <li>About</li>
+            <li>Film</li>
+            <li>Registi</li>
+        </ul>
+        <ul>
+            <li>Contatti</li>
+            <li>Social</li>
+            <li>Banane</li>
+        </ul>
+        <ul>
+            <li>ABC</li>
+            <li>CDE</li>
+            <li>EFG</li>
+        </ul>
+    </div>
+</footer>

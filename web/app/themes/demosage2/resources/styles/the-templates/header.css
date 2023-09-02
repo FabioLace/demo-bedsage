@@ -1,0 +1,28 @@
+.the-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    background-color: #E50914;
+    user-select: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.the-header-links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #a6011b;
+}
+
+.the-header-links a{
+    padding: 10px;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+.the-header-links a:hover{
+    background-color: #650003;
+}

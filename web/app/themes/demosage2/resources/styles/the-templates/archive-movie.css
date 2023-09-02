@@ -1,0 +1,49 @@
+.archive-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.archive-container h1 {
+    margin-bottom: 20px;
+}
+
+.movie-grid {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 150px 150px;
+    column-gap: 150px;
+    row-gap: 50px;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-container img {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+.movie-container img:hover{
+    transform: scale(1.1);
+}
+
+.movie-container a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    margin: 10px;
+    font-size: large;
+    font-style: italic;
+}
+
+.movie-container a:hover{
+    text-decoration: none;
+    color: red;
+}

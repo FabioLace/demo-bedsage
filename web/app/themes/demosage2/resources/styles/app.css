@@ -1,0 +1,25 @@
+/*@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';*/
+
+@import "./the-templates/home.css";
+@import "./the-templates/header.css";
+@import "./the-templates/archive-movie.css";
+@import "./the-templates/archive-registi.css";
+@import "./the-templates/single-movie.css";
+@import "./the-templates/taxonomy-registi.css";
+@import "./the-templates/footer.css";
+
+body{
+    background-color: white;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+a, a:hover{
+    color: white;
+    text-decoration: none;
+}
